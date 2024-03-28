@@ -6,11 +6,6 @@ public class Foo {
     }
 
     public void First(Action printFirst) {
-        while(true){
-            if(count == 1){
-                break;
-            }
-        }
         // printFirst() outputs "first". Do not change or remove this line.
         printFirst();
         
