@@ -2,6 +2,6 @@
 Select customer_id
 From Customer
 Group by customer_id
-Having COUNT(Distinct product_key) >= (
+Having COUNT(Distinct product_key) = (
     Select Count(*)
     From Product);
