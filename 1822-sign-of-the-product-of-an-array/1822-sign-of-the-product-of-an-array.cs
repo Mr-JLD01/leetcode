@@ -9,9 +9,6 @@ public class Solution {
                 numNeg++;
         }
         
-        if(numNeg % 2 == 0)
-            return 1;
-        else
-            return -1;
+        return numNeg % 2 == 0 ? 1 : -1;
     }
 }
